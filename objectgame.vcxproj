@@ -128,8 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="baseenemy.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Game.h" />
     <ClCompile Include="inventory.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="_main.cpp" />
     <ClCompile Include="player.cpp" />
   </ItemGroup>
   <ItemGroup>
