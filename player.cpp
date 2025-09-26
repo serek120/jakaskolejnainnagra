@@ -67,3 +67,9 @@ void CPlayer::StartFight( ICombatCharacter *pAttacker )
         m_pFightingTarget = pAttacker;
     }
 }
+
+int CPlayer::PlayerSpecialAttack(void) {
+    if (m_nMana <= 0) {
+
+    }
+}

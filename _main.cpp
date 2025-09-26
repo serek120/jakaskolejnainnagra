@@ -1,6 +1,18 @@
-﻿#include <stdio.h>
-#include "player.h"
-#include "baseenemy.h"
+﻿//#include <stdio.h>
+//#include "player.h"
+//#include "baseenemy.h"
+
+#include "Game.h"
+
+int main() {
+    Game g;
+    g.intro();
+    g.fight();
+
+}
+
+
+
 
 /*
 int main(void)

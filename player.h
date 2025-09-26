@@ -7,7 +7,7 @@
 class CPlayer : public ICombatCharacter
 {
 public:
-    CPlayer( const char *pszName, int nHealth = 100, int nMana = 50 );
+    CPlayer( const char *pszName, int nHealth, int nMana );
     ~CPlayer( void );
 
     void PrintStats( void ) const;
@@ -22,6 +22,7 @@ public:
     virtual ICombatCharacter *GetFightingTarget( void );
     virtual bool BIsFighting( void ) const;
     void StartFight( ICombatCharacter *pAttacker );
+    virtual int PlayerSpecialAttack();
 
 public:
     CInventory m_inventory;
